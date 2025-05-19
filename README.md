@@ -64,11 +64,6 @@ DATABASE_URL=postgresql+psycopg2://user:password@localhost:5432/crypto_db
 docker-compose up -d
 ```
 
-6. **Initialize o banco de dados**
-```bash
-python initialize_db.py
-```
-
 ### Executando o Pipeline
 ```bash
 python main.py
