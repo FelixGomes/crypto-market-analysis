@@ -84,15 +84,14 @@ crypto-market-analysis/
 │   └── transform.py       # Transformações
 ├── staging/               # Scripts de staging
 ├── utils/                 # Utilitários
-├── notebooks/             # Notebook Jupyter para teste
+├── notebooks/             # Notebook Jupyter para teste da api
 ├── docker-compose.yml     # Configuração Docker
 └── requirements.txt       # Dependências
 ```
 
-## Observações Importantes
+## Observações 
 - A API do CoinCap tem limite de 2500 chamadas por mês
 - O pipeline está configurado para coletar top 20 criptomoedas
-- Os dados são atualizados diariamente
 - Índices otimizados para consultas frequentes
 
 ## Tecnologias Utilizadas
