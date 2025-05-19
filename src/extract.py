@@ -24,15 +24,15 @@ def extract_all_data():
             
         # Extrai e carrega exchanges
         print("Extraindo exchanges")
-        #df_exchanges = get_exchanges()
-        #if df_exchanges is not None:
-        #    db.insert_dataframe(df_exchanges, table_name="stg_exchanges")
+        df_exchanges = get_exchanges()
+        if df_exchanges is not None:
+            db.insert_dataframe(df_exchanges, table_name="stg_exchanges")
             
         # Extrai e carrega asset markets
-        #print("Extraindo asset markets")
-       # df_markets = get_all_assets_markets()
-        #if df_markets is not None:
-         #   db.insert_dataframe(df_markets, table_name="stg_assets_markets")
+        print("Extraindo asset markets")
+        df_markets = get_all_assets_markets()
+        if df_markets is not None:
+            db.insert_dataframe(df_markets, table_name="stg_assets_markets")
             
         print("Extração concluída com sucesso!")
         
