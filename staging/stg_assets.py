@@ -34,12 +34,12 @@ def get_top_assets(limit=20):
         
         # Rename columns to match database schema
         column_mapping = {
-            'maxSupply': 'max_supply',
-            'marketCapUsd': 'market_cap_usd',
-            'volumeUsd24Hr': 'volume_usd_24hr',
-            'priceUsd': 'price_usd',
-            'changePercent24Hr': 'change_percent_24hr',
-            'vwap24Hr': 'vwap_24hr'
+            'maxSupply': 'maxsupply',
+            'marketCapUsd': 'marketcapusd',
+            'volumeUsd24Hr': 'volumeusd24hr',
+            'priceUsd': 'priceusd',
+            'changePercent24Hr': 'changepercent24hr',
+            'vwap24Hr': 'vwap24hr'
         }
         
         df = df.rename(columns=column_mapping)
