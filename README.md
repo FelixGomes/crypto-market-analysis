@@ -13,7 +13,6 @@ Pipeline ETL para análise do mercado de criptomoedas usando dados da CoinCap AP
 1. **Dimensões**:
    - `dim_assets`: Informações sobre criptomoedas
    - `dim_exchanges`: Informações sobre exchanges
-   - `dim_trading_pairs`: Pares de trading disponíveis
 
 2. **Fatos**:
    - `fact_asset_metrics`: Métricas diárias de criptomoedas
