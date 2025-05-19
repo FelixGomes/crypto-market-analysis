@@ -99,3 +99,10 @@ crypto-market-analysis/
 - SQLAlchemy
 - Pandas
 - Docker
+
+## Análises Geradas no Power BI
+- Link dashboard no Google Drive para download: https://drive.google.com/file/d/1dDH-4FtmPgGd2IJFzKJsFWfhlfcDEhMK/view?usp=sharing
+  
+![image](https://github.com/user-attachments/assets/e9a4245c-661c-4689-a67e-dfc67ea9c82b)
+![image](https://github.com/user-attachments/assets/31cd1df8-6325-4c4c-add9-e7d08312e4ed)
+![image](https://github.com/user-attachments/assets/7ad96069-92f3-45f6-8451-7992b1c245db)
