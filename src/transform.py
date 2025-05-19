@@ -132,6 +132,8 @@ def transform_fact_market_metrics():
         exchangeid as exchange_id,
         baseid as base_id,
         quoteid as quote_id,
+        basesymbol as base_symbol,    -- Adicionado
+        quotesymbol as quote_symbol,  -- Adicionado
         priceusd::numeric as price_usd,
         volumeusd24hr::numeric as volume_usd_24hr,
         volumepercent::numeric as volume_percent,
@@ -155,7 +157,6 @@ def transform_all():
         # Dimensões (overwrite)
         transform_dim_assets()
         transform_dim_exchanges()
-        transform_dim_trading_pairs()
         
         # Fatos (append)
         transform_fact_asset_metrics()

@@ -56,15 +56,6 @@ CREATE TABLE IF NOT EXISTS presentation_layer.dim_exchanges (
     updated_at timestamp
 );
 
-CREATE TABLE IF NOT EXISTS presentation_layer.dim_trading_pairs (
-    base_id text,
-    quote_id text,
-    base_symbol text,
-    quote_symbol text,
-    effective_date date,
-    updated_at timestamp
-);
-
 -- Fatos
 CREATE TABLE IF NOT EXISTS presentation_layer.fact_asset_metrics (
     date_id date,
@@ -93,6 +84,8 @@ CREATE TABLE IF NOT EXISTS presentation_layer.fact_market_metrics (
     exchange_id text,
     base_id text,
     quote_id text,
+    base_symbol text,    
+    quote_symbol text,   
     price_usd numeric,
     volume_usd_24hr numeric,
     volume_percent numeric,
