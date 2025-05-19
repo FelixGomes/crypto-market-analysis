@@ -34,6 +34,8 @@ CREATE TABLE IF NOT EXISTS staging_layer.stg_exchanges (
     percent_total_volume numeric,
     volume_usd numeric,
     trading_pairs text,
+    socket boolean,
+    updated bigint,       
     exchange_url text,
     ingestion_timestamp timestamp
 );

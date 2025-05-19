@@ -42,7 +42,9 @@ def get_exchanges(limit=100):
             'percentTotalVolume': 'percent_total_volume',
             'volumeUsd': 'volume_usd',
             'tradingPairs': 'trading_pairs',
-            'exchangeUrl': 'exchange_url'
+            'exchangeUrl': 'exchange_url',
+            'socket': 'socket',
+            'updated': 'updated'
         }
         
         df = df.rename(columns=column_mapping)
